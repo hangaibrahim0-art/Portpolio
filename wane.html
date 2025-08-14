@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal -->
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>Glowing Social Icons</title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+      <style>
+        *{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+body{
+  display: flex;
+  height: 100vh;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+ul{
+  display: flex;
+}
+ul li{
+  position: relative;
+  display: block;
+  color: #666;
+  font-size: 30px;
+  height: 60px;
+  width: 60px;
+  background: #171515;
+  line-height: 60px;
+  border-radius: 50%;
+  margin: 0 15px;
+  cursor: pointer;
+  transition: .5s;
+}
+ul li:before{
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  height: inherit;
+  width: inherit;
+  /* background: #d35400; */
+  border-radius: 50%;
+  transform: scale(.9);
+  z-index: -1;
+  transition: .5s;
+}
+ul li:nth-child(1):before{
+  background: #4267B2;
+}
+ul li:nth-child(2):before{
+  background: #1DA1F2;
+}
+ul li:nth-child(3):before{
+  background: #E1306C;
+}
+ul li:nth-child(4):before{
+  background: #2867B2;
+}
+ul li:nth-child(5):before{
+  background: #ff0000;
+}
+ul li:hover:before{
+  filter: blur(3px);
+  transform: scale(1.2);
+  /* box-shadow: 0 0 15px #d35400; */
+}
+ul li:nth-child(1):hover:before{
+  box-shadow: 0 0 15px #4267B2;
+}
+ul li:nth-child(2):hover:before{
+  box-shadow: 0 0 15px #1DA1F2;
+}
+ul li:nth-child(3):hover:before{
+  box-shadow: 0 0 15px #E1306C;
+}
+ul li:nth-child(4):hover:before{
+  box-shadow: 0 0 15px #2867B2;
+}
+ul li:nth-child(5):hover:before{
+  box-shadow: 0 0 15px #ff0000;
+}
+ul li:nth-child(1):hover{
+  color: #456cba;
+  box-shadow: 0 0 15px #4267B2;
+  text-shadow: 0 0 15px #4267B2;
+}
+ul li:nth-child(2):hover{
+  color: #26a4f2;
+  box-shadow: 0 0 15px #1DA1F2;
+  text-shadow: 0 0 15px #1DA1F2;
+}
+ul li:nth-child(3):hover{
+  color: #e23670;
+  box-shadow: 0 0 15px #E1306C;
+  text-shadow: 0 0 15px #E1306C;
+}
+ul li:nth-child(4):hover{
+  color: #2a6cbb;
+  box-shadow: 0 0 15px #2867B2;
+  text-shadow: 0 0 15px #2867B2;
+}
+ul li:nth-child(5):hover{
+  color: #ff1a1a;
+  box-shadow: 0 0 15px #ff0000;
+  text-shadow: 0 0 15px #ff0000;
+}
+/* ul li:hover{
+  color: #ffa502;
+  box-shadow: 0 0 15px #d35400;
+  text-shadow: 0 0 15px #d35400;
+} */
+      </style>
+   </head>
+   <body>
+      <ul>
+         <li><i class="fab fa-facebook-f"></i></li>x
+         <li><i class="fab fa-twitter"></i></li>
+         <li><i class="fab fa-instagram"></i></li>
+         <li><i class="fab fa-linkedin-in"></i></li>
+         <li><i class="fab fa-youtube"></i></li>
+      </ul>
+
+<!--  About Section -->
+  <section class="container my-5">
+    <div class="row">
+      <div class="col-md-6">
+        <h2 style="text-align: center;"><br></h2>
+        <p style="text-align: center;">Technology has become the driving force behind nearly every transformation in the modern world—from 
+          how we work and communicate to how we think,learn, and build for the future. Orion Technology, we believe that the right words at the right
+         time can fuel innovation, sharpen vision, and spark action. That’s why we’ve curated this powerful collection of technology quotes to inspire 
+         and motivate creators, engineers, leaders, and dreamers shaping tomorrow’s digital landscape.quotes come from tech pioneers, visionary entrepreneurs,
+          philosophers of progress, and brilliant minds across industries. Whether you’re writing code late at night, scaling a startup, or leading a global 
+          transformation, let these words remind you of the wonder, responsibility, and boundless opportunity embedded in technology.
+      </div>
+      <div class="col-md-6">
+        <img src="./ort.png" alt="Travel" class="img-fluid rounded" />
+      </div>
+    </div>
+  </section>
+
+  background: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+
+   </body>
+</html>
